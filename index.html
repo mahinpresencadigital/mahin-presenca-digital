@@ -228,7 +228,7 @@ async function copyText(text){
 form.addEventListener('submit', e => {
   e.preventDefault();
   const text = buildText();
-  if (!/^\d{10,15}$/.test(WHATSAPP) || WHATSAPP === '+5511984090437') {
+  if (!/^\d{10,15}$/.test(WHATSAPP) || WHATSAPP === '5511984090437') {
     
     copyText(text);
     return;
